@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualStudioProject ProjectCreator="Intel Fortran" Keyword="Console Application" Version="11.0" ProjectIdGuid="{7F63FCCA-8E0E-4590-B60E-BF13F1530E2B}">
+	<Platforms>
+		<Platform Name="Win32"/></Platforms>
+	<Configurations>
+		<Configuration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/Qsave" SuppressStartupBanner="true" DebugInformationFormat="debugEnabled" Optimization="optimizeDisabled" Interfaces="true" WarnInterfaces="true" Traceback="true" BoundsCheck="true" RuntimeLibrary="rtMultiThreadedDebug"/>
+				<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" GenerateDebugInformation="true" SubSystem="subSystemConsole"/>
+				<Tool Name="VFResourceCompilerTool"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool" SuppressStartupBanner="true"/></Configuration>
+		<Configuration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true"/>
+				<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" SubSystem="subSystemConsole"/>
+				<Tool Name="VFResourceCompilerTool"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool" SuppressStartupBanner="true"/></Configuration></Configurations>
+	<Files>
+		<Filter Name="Header Files" Filter="fi;fd"/>
+		<Filter Name="Resource Files" Filter="rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe"/>
+		<Filter Name="Source Files" Filter="f90;for;f;fpp;ftn;def;odl;idl">
+		<File RelativePath=".\main.f90"/>
+		<File RelativePath=".\mcm_aviscosity.f90"/>
+		<File RelativePath=".\mcm_baseaccel_in.f90"/>
+		<File RelativePath=".\mcm_bodyforce.f90"/>
+		<File RelativePath=".\mcm_boundcond.f90"/>
+		<File RelativePath=".\mcm_calccritts.f90"/>
+		<File RelativePath=".\mcm_calcg.f90"/>
+		<File RelativePath=".\mcm_calcmass.f90"/>
+		<File RelativePath=".\mcm_calcrhopc.f90"/>
+		<File RelativePath=".\mcm_calctotale.f90"/>
+		<File RelativePath=".\mcm_check_sym_pen.f90"/>
+		<File RelativePath=".\mcm_constitutive.f90"/>
+		<File RelativePath=".\mcm_contactype.f90">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/fp:strict"/></FileConfiguration></File>
+		<File RelativePath=".\mcm_control_v2.f90"/>
+		<File RelativePath=".\mcm_corr_acceleration.f90"/>
+		<File RelativePath=".\mcm_corr_strain.f90"/>
+		<File RelativePath=".\mcm_ctrlc_action.f90"/>
+		<File RelativePath=".\mcm_ctrlc_handle.f90"/>
+		<File RelativePath=".\mcm_d3plot_state.f90"/>
+		<File RelativePath=".\mcm_database.f90"/>
+		<File RelativePath=".\mcm_eos13c.f90"/>
+		<File RelativePath=".\mcm_eos13p.f90"/>
+		<File RelativePath=".\mcm_eos1c.f90"/>
+		<File RelativePath=".\mcm_eos1p.f90"/>
+		<File RelativePath=".\mcm_eos28c.f90"/>
+		<File RelativePath=".\mcm_eos28p.f90"/>
+		<File RelativePath=".\mcm_eos41c.f90"/>
+		<File RelativePath=".\mcm_eos41p.f90"/>
+		<File RelativePath=".\mcm_eos4c.f90"/>
+		<File RelativePath=".\mcm_eos4p.f90"/>
+		<File RelativePath=".\mcm_eoscalc.f90"/>
+		<File RelativePath=".\mcm_eqos.f90"/>
+		<File RelativePath=".\mcm_eqos1.f90"/>
+		<File RelativePath=".\mcm_eqos13.f90"/>
+		<File RelativePath=".\mcm_eqos28.f90"/>
+		<File RelativePath=".\mcm_eqos4.f90"/>
+		<File RelativePath=".\mcm_eqos41.f90"/>
+		<File RelativePath=".\mcm_f3dm1.f90"/>
+		<File RelativePath=".\mcm_f3dm10.f90"/>
+		<File RelativePath=".\mcm_f3dm25.f90"/>
+		<File RelativePath=".\mcm_f3dm3.f90"/>
+		<File RelativePath=".\mcm_f3dm9.f90"/>
+		<File RelativePath=".\mcm_geometry.f90"/>
+		<File RelativePath=".\mcm_geometry_spvp.f90"/>
+		<File RelativePath=".\mcm_get_j_cont_info.f90"/>
+		<File RelativePath=".\mcm_get_j_moment_info.f90"/>
+		<File RelativePath=".\mcm_get_j_strain_info.f90"/>
+		<File RelativePath=".\mcm_getinput.f90"/>
+		<File RelativePath=".\mcm_ghost_ll_neighbours.f90"/>
+		<File RelativePath=".\mcm_ghost_setup.f90"/>
+		<File RelativePath=".\mcm_gradw.f90"/>
+		<File RelativePath=".\mcm_gttxsg.f90"/>
+		<File RelativePath=".\mcm_hieupd.f90"/>
+		<File RelativePath=".\mcm_id_boundary.f90"/>
+		<File RelativePath=".\mcm_init_boundary.f90"/>
+		<File RelativePath=".\mcm_init_boundcond.f90"/>
+		<File RelativePath=".\mcm_init_d3plot.f90"/>
+		<File RelativePath=".\mcm_init_h.f90"/>
+		<File RelativePath=".\mcm_init_neighb.f90"/>
+		<File RelativePath=".\mcm_init_state_output.f90"/>
+		<File RelativePath=".\mcm_initial.f90"/>
+		<File RelativePath=".\mcm_initialise_database.f90"/>
+		<File RelativePath=".\mcm_initold.f90"/>
+		<File RelativePath=".\mcm_initrod.f90"/>
+		<File RelativePath=".\mcm_initsigma.f90"/>
+		<File RelativePath=".\mcm_initstateplot.f90"/>
+		<File RelativePath=".\mcm_inittimehist.f90"/>
+		<File RelativePath=".\mcm_initvbls.f90"/>
+		<File RelativePath=".\mcm_inp_symmetry_v1.f90"/>
+		<File RelativePath=".\mcm_inp_symmetry_v2.f90"/>
+		<File RelativePath=".\mcm_Inputvel.f90"/>
+		<File RelativePath=".\mcm_kernel.f90"/>
+		<File RelativePath=".\mcm_lieupd.f90"/>
+		<File RelativePath=".\mcm_ll_neighbours.f90"/>
+		<File RelativePath=".\mcm_math_func.f90"/>
+		<File RelativePath=".\mcm_matin.f90"/>
+		<File RelativePath=".\mcm_momentum.f90"/>
+		<File RelativePath=".\mcm_move.f90"/>
+		<File RelativePath=".\mcm_neighbours.f90"/>
+		<File RelativePath=".\mcm_nodalav.f90"/>
+		<File RelativePath=".\mcm_nodehist.f90"/>
+		<File RelativePath=".\mcm_nodein.f90"/>
+		<File RelativePath=".\mcm_oldacceleration.f90"/>
+		<File RelativePath=".\mcm_oldstrain.f90"/>
+		<File RelativePath=".\mcm_parse_cl.f90"/>
+		<File RelativePath=".\mcm_pressure_transducer.f90"/>
+		<File RelativePath=".\mcm_print_version.f90"/>
+		<File RelativePath=".\mcm_printm.f90"/>
+		<File RelativePath=".\mcm_read_cont_v1.f90"/>
+		<File RelativePath=".\mcm_rep_contact.f90"/>
+		<File RelativePath=".\mcm_rhoupd.f90"/>
+		<File RelativePath=".\mcm_rstrn.f90"/>
+		<File RelativePath=".\mcm_sets1.f90"/>
+		<File RelativePath=".\mcm_sets10.f90"/>
+		<File RelativePath=".\mcm_sets3.f90"/>
+		<File RelativePath=".\mcm_sets4.f90"/>
+		<File RelativePath=".\mcm_setuplist.f90"/>
+		<File RelativePath=".\mcm_shutdown.f90"/>
+		<File RelativePath=".\mcm_solution.f90"/>
+		<File RelativePath=".\mcm_spvp_ensight_2d.f90"/>
+		<File RelativePath=".\mcm_spvp_ensight_3d.f90"/>
+		<File RelativePath=".\mcm_startup.f90"/>
+		<File RelativePath=".\mcm_state_output.f90"/>
+		<File RelativePath=".\mcm_Stateplot.f90"/>
+		<File RelativePath=".\mcm_strain.f90"/>
+		<File RelativePath=".\mcm_stress_rot1.f90"/>
+		<File RelativePath=".\mcm_stress_up.f90"/>
+		<File RelativePath=".\mcm_sueos.f90"/>
+		<File RelativePath=".\mcm_termin.f90"/>
+		<File RelativePath=".\mcm_timehist.f90"/>
+		<File RelativePath=".\mcm_transducer_nbr.f90"/>
+		<File RelativePath=".\mcm_transducers_in.f90"/>
+		<File RelativePath=".\mcm_update_bndnrm.f90"/>
+		<File RelativePath=".\mcm_update_ghost_stress.f90"/>
+		<File RelativePath=".\mcm_update_h.f90"/>
+		<File RelativePath=".\mcm_update_velocity.f90"/>
+		<File RelativePath=".\mcm_VTK.f90"/>
+		<File RelativePath=".\mcm_write1dasc.f90"/>
+		<File RelativePath=".\mcm_write1dspvp.f90"/>
+		<File RelativePath=".\mcm_write2dasc.f90"/>
+		<File RelativePath=".\mcm_write2dspvp.f90"/>
+		<File RelativePath=".\mcm_write_case.f90"/>
+		<File RelativePath=".\mcm_write_case_2d.f90"/>
+		<File RelativePath=".\mcm_write_case_3d.f90"/>
+		<File RelativePath=".\mcm_write_d3plot.f90"/>
+		<File RelativePath=".\mcm_write_drelax.f90"/>
+		<File RelativePath=".\mcm_write_ensight_2d.f90"/>
+		<File RelativePath=".\mcm_write_ensight_3d.f90"/>
+		<File RelativePath=".\mcm_write_geo.f90"/>
+		<File RelativePath=".\mcm_write_res.f90"/>
+		<File RelativePath=".\mcm_write_res_spvp.f90"/>
+		<File RelativePath=".\mcm_write_scalar.f90"/>
+		<File RelativePath=".\mcm_write_tensor.f90"/>
+		<File RelativePath=".\mcm_write_timings.f90"/>
+		<File RelativePath=".\mcm_write_vector.f90"/>
+		<File RelativePath=".\mcm_writeszero.f90"/></Filter></Files>
+	<Globals/></VisualStudioProject>
